@@ -1,0 +1,14 @@
+export var newConnectionMode=false;
+
+export var selectedNode=undefined;
+export var currentLine=undefined;
+export var contextMode=false;
+export var dragPlane=true;
+export var preventDrag=false;
+//minimap rendering variable
+export var currentWindow=undefined;
+export var currentNode=undefined;
+export var NodesDict={};
+export var WindowsDict={};
+export var RenderedChange=true;
+export var draggable = document.querySelectorAll(".draggable");
